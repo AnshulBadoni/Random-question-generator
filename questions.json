@@ -1,0 +1,52 @@
+[
+    {
+      "question": "what is linear regression?",
+      "subject": "Machine Learning",
+      "topic": "Regression",
+      "difficulty": "Easy",
+      "marks": 5
+    },
+    {
+      "question": "What is middleware?",
+      "subject": "Web Devlopement",
+      "topic": "Fullstack",
+      "difficulty": "Easy",
+      "marks": 5
+    },
+    {
+      "question": "What Is a False Positive and False Negative and How Are They Significant?",
+      "subject": "Machine Learning",
+      "topic": "Preprocessing",
+      "difficulty": "Medium",
+      "marks": 8
+    },
+    {
+      "question": "What architecture react uses? Explain it.",
+      "subject": "Web Devlopement",
+      "topic": "ReactJS",
+      "difficulty": "Hard",
+      "marks": 15
+    },
+    {
+      "question": "Diffrence between supervise and unsupervised learning?",
+      "subject": "AIML",
+      "topic": "Learnings",
+      "difficulty": "Easy",
+      "marks": 5
+    },
+    {
+      "question": "Fathometer is used to measure?",
+      "subject": "General Knowledge",
+      "topic": "Devices",
+      "difficulty": "Medium",
+      "marks": 10
+    },
+    {
+      "question": "Explain Shannon Theoram",
+      "subject": "Computer Networks",
+      "topic": "Physical Layer",
+      "difficulty": "Hard",
+      "marks": 15
+    }
+  ]
+  
