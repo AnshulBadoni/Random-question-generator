@@ -1,41 +1,60 @@
-Question Paper Generator
-Overview
+# Question Paper Generator
+
+## Overview
+
 This Node.js project is a simple question paper generator that randomly selects questions from a JSON file. The questions are categorized into three difficulty levels: easy, medium, and hard. The generator aims to create question papers with a distribution of 20% easy questions, 50% medium questions, and 30% hard questions.
 
-Setup
-Follow these steps to set up and run the project on your local machine:
+## Setup
 
-Prerequisites
-Node.js installed on your machine.
-Installation
-Clone the repository to your local machine:
+### Prerequisites
 
-bash
-Copy code
-git clone https://github.com/your-username/question-paper-generator.git
-Navigate to the project directory:
+- Node.js installed on your machine.
 
-bash
-Copy code
-cd question-paper-generator
-Install dependencies:
+### Installation
 
-bash
-Copy code
-npm install
-Usage
-Run the Node.js server:
+1. Clone the repository to your local machine:
 
-bash
-Copy code
-node app.js
-Open your web browser and go to http://localhost:5000/ to view the question paper generator in action.
+    ```bash
+    git clone https://github.com/your-username/question-paper-generator.git
+    ```
 
-How It Works
-The generator reads questions from a questions.json file, categorizes them by difficulty, and then randomly selects questions based on the specified distribution. The generated question paper is displayed on the web page.
+2. Navigate to the project directory:
 
-Project Structure
-app.js: Node.js server script.
-questions.json: JSON file containing the questions.
-Customization
-Feel free to customize the project by adding more questions to the questions.json file or adjusting the distribution percentages in the generateQuestionPaper function in app.js.
+    ```bash
+    cd question-paper-generator
+    ```
+
+3. Install dependencies:
+
+    ```bash
+    npm install
+    ```
+
+### Usage
+
+1. Run the Node.js server:
+
+    ```bash
+    node app.js
+    ```
+
+2. Open your web browser and go to [http://localhost:5000/](http://localhost:5000/) to view the question paper generator in action.
+
+## How It Works
+
+The generator reads questions from a `questions.json` file, categorizes them by difficulty, and then randomly selects questions based on the specified distribution. The generated question paper is displayed on the web page.
+
+## Project Structure
+
+- **app.js:** Node.js server script.
+- **questions.json:** JSON file containing the questions.
+- 
+## Customization
+
+Feel free to customize the project by adding more questions to the `questions.json` file or adjusting the distribution percentages in the `generateQuestionPaper` function in `app.js`.
+
+## Contributing
+
+If you find any issues or have suggestions for improvement, feel free to open an issue or submit a pull request.
+
+Happy generating!
