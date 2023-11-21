@@ -1,18 +1,11 @@
 const express = require('express');
-const bodyParser = require('body-parser');
 const fs = require('fs');
 const path = require('path');
-const cors = require('cors');
+
 
 const app = express();
 const port = 5000;
 
-app.use(bodyParser.json());
-app.use(cors({
-  origin: '*',
-  methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
-  credentials: true,
-}));
 
 const questionsFilePath = path.join(__dirname, 'questions.json');
 
